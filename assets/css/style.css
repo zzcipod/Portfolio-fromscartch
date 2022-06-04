@@ -1,0 +1,209 @@
+/* Element Selectors */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans'； 
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+/* Header */
+header {
+    display: flex;
+    padding: 20px;
+    background-color: antiquewhite;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    max-height: 400px;
+    margin: auto;
+}
+
+/* Navigation */
+header nav {
+    align-self: center;
+    flex: 1 0 0;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: -13px;
+}
+
+nav ul {
+font-size: 120%;
+margin-bottom: 0px;
+text-align: right;
+}
+
+nav li {
+ display: inline;   
+}
+
+nav a {
+display: inline;
+padding: 20px;
+color: cornflowerblue;
+}
+
+nav a:hover {
+color: darkolivegreen;
+border-radius: 15px;
+}
+
+/* Footer */
+
+footer {
+    display: inline;
+    position: unset;
+    bottom: 0px;
+    justify-content: center;
+    align-items: flex-end;
+    }
+    
+    footer ul {
+    padding: 4px;    
+    width: 250px;
+    border-radius: 20%;
+    margin: auto;
+    color: aliceblue;
+    }
+
+ /* ------- ME ------ */
+
+.Me {
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1350px;
+    margin: auto;
+    background-color: darkseagreen;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-radius: 25px;
+}
+
+.Me h3 {
+    font-size: x-large;
+    flex-direction: column;
+    border-bottom: solid;
+}
+
+.Me p {
+    font-size: larger;
+    text-align: center;
+    max-width: 1350px;
+}   
+
+/* ------- Works ------- */
+
+.mainWork h3 {
+    position: relative;
+    bottom: 500px;
+    left: 340px;
+    background-color: cyan;
+    border-radius: 6px;
+    max-width: 200px;
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+    }
+    
+    .mainWork img {
+        display:flex;
+        max-width: 800px;
+        min-width: none;
+        margin: auto;
+        border-radius: 30px;
+    }
+    
+    article.Works {
+        background-color: cadetblue;
+        border-radius: 10px;
+        max-width: 1400px;
+        min-width: 350px;
+        margin: auto;
+    }
+    
+    /* Projects */
+    .mainSocial h3 {
+        position: relative;
+        bottom: 500px;
+        left: 340px;
+        background-color: cyan;
+        border-radius: 6px;
+        max-width: 200px;
+        text-align: center;
+        padding: 5px 0px 5px 0px;
+        }
+        
+        .mainSocial img {
+            display:flex;
+            max-width: 800px;
+            min-width: none;
+            margin: auto;
+            border-radius: 30px;
+        }
+        
+        article.Social {
+            background-color: cadetblue;
+            border-radius: 10px;
+            max-width: 1400px;
+            min-width: 350px;
+            margin: auto;
+        }
+
+
+
+    /* .projects {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-basis: 60%;
+    }
+    
+    .projects a {
+        margin: 20px;
+    }
+    
+    .projects a h3 {
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        top: -400px;
+        background: cyan;
+        width: 250px;
+        left: 35px;
+        border-radius: 5px;
+        padding: 3px 0px 3px 0px;
+    }
+    
+    .projects a img {
+        border-radius: 10px;
+        max-width: 600px;
+        min-width: 300px;
+    } */
+    
+    /* ------- ID SELECTORS -------- */
+
+/* #hero {
+    float: left;
+    max-width: 600px;
+    min-width: 300px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+h2#Works-Title {
+    text-align: center;
+    text-decoration: underline;
+    font-size: xx-large;
+    font-weight: bolder;
+    padding-top: 10px;
+} */
